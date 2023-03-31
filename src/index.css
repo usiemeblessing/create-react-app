@@ -6,7 +6,9 @@
 	box-sizing: border-box;
 }
 
-.header {
+/* first Component */
+.header,
+main {
 	width: 90%;
 	max-width: 800px;
 	background-color: darkgoldenrod;
@@ -19,6 +21,7 @@
 
 h1 {
 	margin-bottom: 20px;
+	font-size: 60px;
 }
 
 .navbar {
@@ -37,8 +40,38 @@ nav ul li {
 	list-style-type: none;
 }
 
-nav ul li a {
+.header-link {
 	text-decoration: none;
 	color: white;
 	text-decoration: none;
+}
+
+/* Second Component */
+
+main {
+	padding: 20px;
+}
+
+.about-text {
+	line-height: 1.5;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.services-list-container {
+	list-style-type: none;
+}
+.about-us,
+.our-services {
+	font-size: 32px;
+	margin: 10px 0;
+}
+
+.services {
+	margin-top: 10px;
+	padding: 10px 0;
+}
+.services-list-item {
+	margin-bottom: 10px;
+	font-size: 18px;
 }

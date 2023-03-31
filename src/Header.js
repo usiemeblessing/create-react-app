@@ -6,16 +6,24 @@ function ReturnJSXVersion() {
 		<nav className="navbar">
 			<ul>
 				<li>
-					<a href="#">Home</a>
+					<a className="header-link" href="#">
+						Home
+					</a>
 				</li>
 				<li>
-					<a href="#">About</a>
+					<a className="header-link" href="#">
+						About
+					</a>
 				</li>
 				<li>
-					<a href="#">Services</a>
+					<a className="header-link" href="#">
+						Services
+					</a>
 				</li>
 				<li>
-					<a href="#">Contact</a>
+					<a className="header-link" href="#">
+						Contact
+					</a>
 				</li>
 			</ul>
 		</nav>
