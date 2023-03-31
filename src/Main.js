@@ -1,19 +1,21 @@
 /** @format */
 
 function ReturnJSXVersion2() {
+	const country = "Nigeria";
+
 	return (
 		<main>
-			<section>
-				<h2>About Us</h2>
+			<section className="about">
+				<h2 className="about-us">About Us</h2>
 				<p>
-					We are a small Tem of web developers based in United States.
-					We specialize in creating modern and responsive websites for
+					We are a small Tem of web developers based in {country}. We
+					specialize in creating modern and responsive websites for
 					businesses and individuals.
 				</p>
 			</section>
-			<section>
-				<h2>Our Services</h2>
-				<ul>
+			<section className="services">
+				<h2 className="our-services">Our Services</h2>
+				<ul className="services-list">
 					<li>Web Design</li>
 					<li>Web Development</li>
 					<li>E-Commerce Solution</li>
