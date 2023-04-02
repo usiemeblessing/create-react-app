@@ -1,14 +1,14 @@
 /** @format */
 
-import ReturnJSXVersion from "./Header.js";
-import ReturnJSXVersion2 from "./Main.js";
+import Header from "./Header.js";
+import AboutAndServices from "./Main.js";
 import "./index.css";
 
 function App() {
 	return (
 		<>
-			<ReturnJSXVersion />
-			<ReturnJSXVersion2 />
+			<Header />
+			<AboutAndServices />
 		</>
 	);
 }

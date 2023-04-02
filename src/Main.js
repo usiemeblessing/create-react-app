@@ -1,6 +1,6 @@
 /** @format */
 
-function ReturnJSXVersion2() {
+function AboutAndServices() {
 	const country = "Nigeria";
 
 	return (
@@ -28,4 +28,4 @@ function ReturnJSXVersion2() {
 	);
 }
 
-export default ReturnJSXVersion2;
+export default AboutAndServices;

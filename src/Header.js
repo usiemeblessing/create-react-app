@@ -1,6 +1,6 @@
 /** @format */
 
-function ReturnJSXVersion() {
+function Header() {
 	return (
 		<header className="header">
 			<h1>Welcome to my Website!</h1>
@@ -32,4 +32,4 @@ function ReturnJSXVersion() {
 	);
 }
 
-export default ReturnJSXVersion;
+export default Header;
