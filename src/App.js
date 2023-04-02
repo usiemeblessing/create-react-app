@@ -1,41 +1,16 @@
 /** @format */
 
+import ReturnJSXVersion from "./Header.js";
 import ReturnJSXVersion2 from "./Main.js";
 import "./index.css";
 
-function ReturnJSXVersion() {
+function App() {
 	return (
 		<>
-			<header className="header">
-				<h1>Welcome to my Website!</h1>
-				<nav className="navbar">
-					<ul>
-						<li>
-							<a className="header-link" href="#">
-								Home
-							</a>
-						</li>
-						<li>
-							<a className="header-link" href="#">
-								About
-							</a>
-						</li>
-						<li>
-							<a className="header-link" href="#">
-								Services
-							</a>
-						</li>
-						<li>
-							<a className="header-link" href="#">
-								Contact
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
+			<ReturnJSXVersion />
 			<ReturnJSXVersion2 />
 		</>
 	);
 }
 
-export default ReturnJSXVersion;
+export default App;
